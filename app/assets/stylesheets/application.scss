@@ -1,0 +1,24 @@
+@import "bootstrap";
+
+
+body {
+	color:red;
+	background:black;
+}
+
+.navbar {
+	background:#9BE3DE;
+}
+
+.pouet:hover {
+	transform:scale(1.2);
+	transition: ease 0.2s;
+}
+
+.pouet {
+	transition: ease 0.2s;
+}
+
+.pouet2 {
+	color:#FFE3ED;
+}

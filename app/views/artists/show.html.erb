@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @artist.title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @artist.author %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @artist.description %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @artist.date %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @artist.picture %>
+</p>
+
+<p>
+  <strong>Formatt:</strong>
+  <%= @artist.formatt %>
+</p>
+
+<%= link_to 'Edit', edit_artist_path(@artist) %> |
+<%= link_to 'Back', artists_path %>
